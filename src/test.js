@@ -1,0 +1,3 @@
+const dummyfunc = () => {
+    return true
+}

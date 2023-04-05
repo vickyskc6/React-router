@@ -1,3 +1,7 @@
+import { useParams } from "react-router-dom"
+
 export function Book (){
-    return <div>book</div>
+
+   let {id} =  useParams()
+    return <div>book{id}</div>
 }
